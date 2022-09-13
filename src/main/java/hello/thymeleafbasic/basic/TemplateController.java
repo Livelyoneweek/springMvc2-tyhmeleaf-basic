@@ -12,4 +12,9 @@ public class TemplateController {
     public String template() {
         return "template/fragment/framentMain";
     }
+
+    @GetMapping("/layout")
+    public String layout() {
+        return "template/layout/layoutMain";
+    }
 }
